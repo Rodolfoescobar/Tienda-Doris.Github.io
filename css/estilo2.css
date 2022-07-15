@@ -1,6 +1,6 @@
 .contenedor{
     width:1340px;
-    height:800px;
+    height:830px;
     background-color: #2c3e50;
 }
 header{
@@ -9,7 +9,7 @@ header{
     background-color: #D9D9D9;
 }
 .anuncio1{
-    width:304px;
+    width:300px;
     height: 65px;
     background-color: #D9D9D9;
     margin-left: 80.5px;
@@ -26,10 +26,10 @@ header{
 }
 
 .anuncio3{
-    width:304px;
+    width:300px;
     height: 65px;
     background-color: #D9D9D9;
-    margin-top: -290px;
+    margin-top: -282px;
     margin-left: 488px;
 
 }
@@ -41,10 +41,10 @@ header{
     margin-left: 488px;
 }
 .anuncio5{
-    width:304px;
+    width:300px;
     height: 65px;
     background-color: #D9D9D9;
-    margin-top: -290px;
+    margin-top: -285px;
     margin-left: 900px;
     margin-right: -50px;
 }
@@ -57,12 +57,12 @@ header{
     margin-right: -105px;
 }
 .anuncio7{
-    width:304px;
+    width:300px;
     height: 65px;
     background-color: #D9D9D9;
     margin-left: 80.5px;
     margin-right: -50px;
-    margin-top: 64px;
+    margin-top: 50px;
 }
 .anuncio8{
     width:299px;
@@ -73,10 +73,10 @@ header{
     margin-right: -105px;
 }
 .anuncio9{
-    width:304px;
+    width:300px;
     height: 65px;
     background-color: #D9D9D9;
-    margin-top: -290px;
+    margin-top: -282px;
     margin-left: 488px;
     margin-right: -50px;
 }
@@ -89,10 +89,10 @@ header{
     margin-right: -105px;
 }
 .anuncio11{
-    width:304px;
+    width:300px;
     height: 65px;
     background-color: #D9D9D9;
-    margin-top: -290px;
+    margin-top: -283px;
     margin-left: 900px;
     margin-right: -50px;
 }
@@ -107,19 +107,71 @@ header{
 .anuncio13{
     width:1340px;
     height: 50px;
-    background-color: #D9D9D9;
-    margin-top: 36px;
-}
-
-.fa-facebook{
-    font-size: 25px;
-    color: #1877f2;
-}
-.fa-whatsapp{
-    font-size: 25px;
-    color: #075e54;
+    background-color: #2c3e50;
+    margin-top: -25px;
 }
 .carrito{
     margin-left: 5px;
     margin-top: -85px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+body{
+	background-color: aliceblue;
+    background-size: cover;
+}
+nav{
+	max-width: 900px;
+	margin: auto;
+	background-color: #333;
+	font-size: 20px;
+	margin-top: -700px;
+}
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover{
+	background-color: red;
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: black;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+
+#html{
+	margin: auto;
+	padding: 20px;
+	max-width: 900px;
+	background: white;
+
 }
